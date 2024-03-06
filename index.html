@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Know your weather</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="first-section">
+            <input type="text" title="CityName" id="input">
+            <button id="search-btn" title="search"><img src="search.png" alt=""></button>
+        </div>
+
+        <div class="second-section">
+            <img src="clear.png" alt="clear" id="weather-icon">
+            <p id="temp">23&degC</p>
+            <p id="nameOfCity">Kolkata</p>
+        </div>
+
+        <div class="third-section">
+            <div class="humidity-section">
+            <img src="humidity.png" alt="humidity">
+            <div>
+            <p class="windspeed" id="humidity">78%</p>
+            <p>humidity</p></div>
+        </div>
+
+        <div class="wind-section">
+                <img src="wind.png" alt="wind">
+                <div>
+                <p class="windspeed" id="speedOfWind">1.54 km/hr</p>
+                <p>Wind Speed</p></div>
+        </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
